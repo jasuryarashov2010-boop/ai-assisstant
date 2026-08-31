@@ -1,0 +1,35 @@
+services:
+  - type: web
+    name: ai-assistant-bot
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_IDS
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: REDIS_URL
+        sync: false
+      - key: WEBHOOK_URL
+        sync: false
+      - key: WEBHOOK_PATH
+        value: /telegram/webhook
+      - key: WEBHOOK_SECRET
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_CHAT_MODEL
+        value: gpt-5-mini
+      - key: OPENAI_TRANSCRIBE_MODEL
+        value: gpt-4o-mini-transcribe
+      - key: OPENAI_IMAGE_MODEL
+        value: gpt-image-1
+      - key: DEFAULT_FREE_DAILY_AI
+        value: "20"
+      - key: DEFAULT_PRO_DAILY_AI
+        value: "100"
+      - key: DEFAULT_COMFORT_DAILY_AI
+        value: "300"
