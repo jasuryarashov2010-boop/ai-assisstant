@@ -5,6 +5,7 @@ import html as pyhtml
 import logging
 from io import BytesIO
 from pathlib import Path
+from aiogram.filters import Command
 
 from aiogram import F, Router
 from aiogram.fsm.context import FSMContext
