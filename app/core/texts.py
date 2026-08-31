@@ -1,0 +1,32 @@
+TEXT = {
+    "uz": {
+        "choose_lang": "🌐 <b>Tilni tanlang</b>\n\nSizga qulay tilni tanlang:",
+        "language_saved": "✅ Til muvaffaqiyatli saqlandi.",
+        "home": "<b>🤖 AI YORDAMCHI</b>\n\n<blockquote>⚡ Savol bering. Fayl yuboring. Ovozli xabar yuboring. G‘oya bering — men yordam beraman.</blockquote>\n\n💎 Tarif: <b>{plan}</b>\n⚡ AI bugun: <b>{used}/{limit}</b>\n🎫 Ticketlar: <b>{tickets}/{ticket_limit}</b>\n\n👇 Kerakli bo‘limni tanlang:",
+        "main_ready": "✅ Bosh menyu yangilandi.",
+        "ai_menu": "<b>🤖 AI YORDAMCHI</b>\n\n<blockquote>Bir oynada suhbat, fayl, ovoz, rasm va maxsus AI rejimlari.</blockquote>\n\n💬 Oddiy suhbat\n📚 O‘qish va coding\n📎 Hujjatlarni tahlil qilish\n🎙 Ovoz bilan ishlash\n🖼 Kreativ vositalar\n\n👇 Rejimni tanlang:",
+        "support_menu": "<b>💬 SUPPORT</b>\n\nMuammo yoki savolingiz bo‘lsa, ticket oching. Yozishmalar saqlanadi va keyin davom ettiriladi.",
+        "settings": "<b>⚙️ SOZLAMALAR</b>\n\n🌐 Til: /language\n🔔 Bildirishnomalar: yoqilgan\n🛡 Ma’lumotlar: akkauntingizdagi faoliyat bo‘yicha xizmat ko‘rsatish uchun ishlatiladi.",
+        "limit": "⛔ <b>Bugungi AI limiti tugadi.</b>\n\n⭐ Pro yoki 💎 Comfort tarifiga o‘tish uchun admin bilan bog‘laning.",
+    },
+    "en": {
+        "choose_lang": "🌐 <b>Choose your language</b>",
+        "language_saved": "✅ Language saved.",
+        "home": "<b>🤖 AI ASSISTANT</b>\n\n<blockquote>⚡ Ask a question. Send a file. Send a voice note. Share an idea — I’ll help.</blockquote>\n\n💎 Plan: <b>{plan}</b>\n⚡ AI today: <b>{used}/{limit}</b>\n🎫 Tickets: <b>{tickets}/{ticket_limit}</b>\n\n👇 Choose a section:",
+        "main_ready": "✅ Main menu refreshed.",
+        "ai_menu": "<b>🤖 AI ASSISTANT</b>\n\n<blockquote>Chat, files, voice, images and focused AI modes in one place.</blockquote>\n\n💬 General chat\n📚 Study and coding\n📎 Document analysis\n🎙 Voice\n🖼 Creative tools\n\n👇 Choose a mode:",
+        "support_menu": "<b>💬 SUPPORT</b>\n\nOpen a ticket for a question or problem. Conversations are saved and can be continued later.",
+        "settings": "<b>⚙️ SETTINGS</b>\n\n🌐 Language: /language\n🔔 Notifications: enabled",
+        "limit": "⛔ <b>Today’s AI limit is finished.</b>\n\nContact an admin to upgrade to Pro or Comfort.",
+    },
+    "ru": {
+        "choose_lang": "🌐 <b>Выберите язык</b>",
+        "language_saved": "✅ Язык сохранён.",
+        "home": "<b>🤖 AI ПОМОЩНИК</b>\n\n<blockquote>⚡ Задавайте вопросы, отправляйте файлы и голосовые сообщения — я помогу.</blockquote>\n\n💎 Тариф: <b>{plan}</b>\n⚡ AI сегодня: <b>{used}/{limit}</b>\n🎫 Тикеты: <b>{tickets}/{ticket_limit}</b>\n\n👇 Выберите раздел:",
+        "main_ready": "✅ Главное меню обновлено.",
+        "ai_menu": "<b>🤖 AI ПОМОЩНИК</b>\n\n<blockquote>Чат, файлы, голос, изображения и специальные режимы AI в одном месте.</blockquote>\n\n💬 Чат\n📚 Учёба и кодинг\n📎 Анализ документов\n🎙 Голос\n🖼 Креатив\n\n👇 Выберите режим:",
+        "support_menu": "<b>💬 ПОДДЕРЖКА</b>\n\nСоздайте тикет. Переписка сохранится, и вы сможете продолжить её позже.",
+        "settings": "<b>⚙️ НАСТРОЙКИ</b>\n\n🌐 Язык: /language\n🔔 Уведомления: включены",
+        "limit": "⛔ <b>Лимит AI на сегодня исчерпан.</b>\n\nСвяжитесь с администратором для перехода на Pro или Comfort.",
+    },
+}
